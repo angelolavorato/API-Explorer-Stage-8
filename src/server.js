@@ -2,7 +2,7 @@ const express = require('express') //importou o express
 
 const app = express() //inicializou o express
 
-app.get('/', (request, response) => {
+app.get('/message', (request, response) => {
   response.send('Hello World')
 })
 
