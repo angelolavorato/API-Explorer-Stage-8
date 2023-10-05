@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Ângelo Soldati Lavorato",
+  "license": "ISC",
+  "description": "API desenvolvida no programa Explorer da Rocketseat"
 }
