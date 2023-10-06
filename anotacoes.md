@@ -8,4 +8,5 @@ _Métodos de requisições:_
 -PATCH ->Atualização parcial
 
 **ROUTE PARAMS**
-Estrategia utilizada para passar valores como parâmetros pra nossa rota
+Estrategia utilizada para passar valores como parâmetros pra a rota
+Params são utilizados para dados simples como ID's de produtos
