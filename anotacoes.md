@@ -6,3 +6,6 @@ _Métodos de requisições:_
 -PUT ->Atualização
 -DELETE ->Deleção
 -PATCH ->Atualização parcial
+
+**ROUTE PARAMS**
+Estrategia utilizada para passar valores como parâmetros pra nossa rota
