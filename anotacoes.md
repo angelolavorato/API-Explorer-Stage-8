@@ -10,3 +10,7 @@ _Métodos de requisições:_
 **ROUTE PARAMS**
 Estrategia utilizada para passar valores como parâmetros pra a rota
 Params são utilizados para dados simples como ID's de produtos
+
+**QUERY PARAMS**
+_modelo_
+https://enderecodoservidor.com.br/users/?page=2&limit=10
