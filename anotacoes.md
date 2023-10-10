@@ -14,3 +14,11 @@ Params são utilizados para dados simples como ID's de produtos
 **QUERY PARAMS**
 _modelo_
 https://enderecodoservidor.com.br/users/?page=2&limit=10
+
+users = recurso
+? = Separador
+page = chave
+2 = valor
+& = separador
+limit = chave
+10 = valor
