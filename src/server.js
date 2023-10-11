@@ -1,22 +1,12 @@
 const express = require('express') //importou o express
 
 const app = express() //inicializou o express
+app.use(express.json())
 
-app.get('/message/:id/:user', (request, response) => {
-  //esse /message é uma nova rota na aplicação
+app.post('/users', (request, response) => {
+  const { name, email, password } = request.body
 
-  const { id, user } = request.params
-
-  response.send(`
-  Id da mensagem: ${id}.
-  Nome do usuário: ${user}
-  `)
-})
-
-app.get('/users', (request, response) => {
-  const { page, limit } = request.query
-
-  response.send(`Página: ${page}. Mostrar: ${limit}`)
+  response.send(`Usuário: ${name}. Email: ${email}. Senha: ${password}`)
 })
 
 const PORT = 3333 //criou uma constante que definiu o número da porta que a API vai ficar observando
