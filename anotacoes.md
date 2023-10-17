@@ -22,3 +22,23 @@ page = chave
 & = separador
 limit = chave
 10 = valor
+
+**HTTP CODES**
+1xx = informativo ex. "a solicitação foi aceita ou o processamento continua em andamento"
+102 - Processando
+
+2xx = Success
+200 - Requisição bem sucedida
+201 - Criado - geralmente utilizado para o POST após uma inserção
+
+3xx = Redirect
+301 - Movido permanentemente
+302 - Movido
+
+4xx - Erro do cliente
+400 - Bad request
+401 - Unauthorized
+404 - Not found
+
+5xx - Erro no servidor
+500 - Erro interno
