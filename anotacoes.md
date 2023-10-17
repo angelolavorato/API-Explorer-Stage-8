@@ -42,3 +42,6 @@ limit = chave
 
 5xx - Erro no servidor
 500 - Erro interno
+
+**MIDDLEWARE**
+
