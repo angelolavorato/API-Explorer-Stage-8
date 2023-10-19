@@ -44,13 +44,17 @@ limit = chave
 500 - Erro interno
 
 **MIDDLEWARE**
-Middleware são funções que tem acesso ao objeto de solicitação (requisição), o objeto de resposta  (resposta), e a próxima função de middleware no ciclo solicitação-resposta do aplicativo.
+Middleware são funções que tem acesso ao objeto de solicitação (requisição), o objeto de resposta (resposta), e a próxima função de middleware no ciclo solicitação-resposta do aplicativo.
 A próxima função middleware é comumente denotada por uma variável chamada next.
 
-*Middleware pode
+Middleware pode
 -Executar qualquer código
 -Fazer mudanças nos objetos
 -Encerrar o ciclo de solicitação-resposta
 -Chamar o próximo middleware da pilha
 
-
+**SQL COMANDOS DML** (Data Manipulation Language)
+C - Create -> Insert
+R - Read -> Select
+U - Update -> Update
+D - Delete -> Delete
