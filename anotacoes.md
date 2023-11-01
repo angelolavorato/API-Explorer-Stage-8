@@ -58,3 +58,11 @@ C - Create -> Insert
 R - Read -> Select
 U - Update -> Update
 D - Delete -> Delete
+
+**MIGRATIONS**
+É uma forma de versionar a base de dados
+Migrations trabalha na manipulação da base de dados: criando, alterando ou removendo
+
+_Métodos_
+UP - método responsável por criar ou alterar algo no banco de dados
+DOWN - responsável pelo rollback. Ou seja, desfazer as alterações realizadas pela migration.
